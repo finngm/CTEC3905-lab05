@@ -1,5 +1,5 @@
 (function(){
-	let sent = document.getElementById("sentence");
+  let sent = document.getElementById("sentence");
   let sentForm = document.getElementById("sentence-form");
   let space = document.getElementById("space-for-paragraphs");
 	
@@ -9,6 +9,9 @@
     let txt = document.createTextNode(sent.value);
     para.appendChild(txt);
     space.appendChild(para);
+	
+	
+	
     ev.preventDefault();
   }
 
